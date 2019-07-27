@@ -1,5 +1,5 @@
-# Deep-Learning-Lie-Detection
-# Using machine learning models to detect lies based solely on acoustic speech information
+# Deep Learning for Lie Detection
+<i>Using machine learning models to detect lies based solely on acoustic speech information</i>
 
 Current methods of lie detection are highly inaccurate and dependent on physiological and behavioral patterns. Less research has focused on creating a computational model to automate lie detection. Here I train several machine learning models and a sequential neural network using solely acoustic features in speech for lie detection. Mel-frequency cepstral coefficients (MFCC), energy envelopes, and pitch contours are generated from a balanced dataset of deceptive and non-deceptive speech recordings collected from a 2-person lying game. Predictions on a single audio file were binary, classified as either a truth or a lie.
 
